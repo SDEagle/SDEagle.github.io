@@ -30,9 +30,9 @@ So I really need some summer.
 
 Nonetheless I of course enjoy the time. 
 My work is nothing short of awesome and a lot of fun.
-I work for a small startup called Universal Avenue.
+I work for a small startup called [Universal Avenue](https://www.universalavenue.com/).
 The company has a lot of momentum and is growing with some sort of exponentially pace right now.
-The team is actually quite international, there a people form greece, from UK and from Lithuania and the dev team makes no exception in that.
+The [team](https://www.universalavenue.com/team?locale=en) is actually quite international, there a people form greece, from UK and from Lithuania and the dev team makes no exception in that.
 Some people work also remotely.
 So it's really great to work in that buzzing crazy creative atmosphere of startups.
 Also, Stockholm has one of the most active startup communities in europe.
