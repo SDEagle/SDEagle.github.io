@@ -5,8 +5,8 @@ category: stockholm
 ---
 
 My calendar tells me that it's been one month already since I arrived in Stockholm. 
-Actually I don't feel like believing him, though usually hes right with such claims.
-Fast passing time might probably be a good indicator that I've settled in quite well.
+Actually I don't feel like believing that, though usually the calendar is right with such claims.
+Fast passing time might be an indicator that I've settled in quite well.
 
 So how is it here?
 I'll spare you bad smartphone pictures of me walking around in the city. 
@@ -17,25 +17,24 @@ It's a little bit like Venice though without the channels, so you do not constan
 There are even public transport ferries.
 (Also, there is plenty of wind, which I really missed in Karlsruhe.)
 
-I live in a house with 10 other internationals (some are students, some actually work here, some do internships) half an hour with the subway from the city centre.
-The house is actually more like a dorm floor than a flatshare.
+I live in a house half an hour with the subway from the city centre together with 10 other internationals (some are students, some actually work here, some do internships).
+The house is more like a dorm floor than a flatshare.
 It's a great place to get to know a bunch of different cultures and experience that crazy mix which you get when you throw young adults from all over the world into one place.
-To say that my room is super nice would sadly be a lie. It's small, it's pretty dark, it's in the basement (please no computer science cliches) and not really comfortable. 
+To say that my room is super nice would sadly be a lie. It's small, it's pretty dark, it's in the basement (please no computer science jokes) and not really cozy. 
 But luckily this is going to change in two weeks, when I can move within this house, to a larger, better, more comfortable room with a large window to the east, so the sun can wake me up every morning at 4:30am.
-As it turns out midsummer is just a little more than a month away and the times where it's really dark get shorter and shorter. 
+As it turns out midsummer is just a little more than a month away and the time during the night where it's really dark get shorter and shorter. 
 Yesterday night at 0:30 (which is acutally the middle of the night, the sun sets shortly after 9pm and rises again shortly after 4am) there was still (dark blue) to eveneing-red strip at the northern horizon. 
-Though it doesn't feel like summer so far at all. 
+Though so far it doesn't feel like summer at all. 
 Dayly temperatures maxes are still creeping around between 10 and 15 degrees. 
-So I really need some summer.
 
-Nonetheless I of course enjoy the time. 
+But don't get me wrong with my all german complaining, I definitely do enjoy the time here.
 My work is nothing short of awesome and a lot of fun.
 I work for a small startup called [Universal Avenue](https://www.universalavenue.com/).
-The company has a lot of momentum and is growing with some sort of exponentially pace right now.
-The [team](https://www.universalavenue.com/team?locale=en) is actually quite international, there a people form greece, from UK and from Lithuania and the dev team makes no exception in that.
-Some people work also remotely.
-So it's really great to work in that buzzing crazy creative atmosphere of startups.
-Also, Stockholm has one of the most active startup communities in europe.
+The company was founded about half a year ago and currently has an incredible amount of momentum and is growing in some sort of exponentially pace right now.
+The whole [team](https://www.universalavenue.com/team?locale=en) is actually quite international, there a people form greece, from UK and from Lithuania and the dev team makes no exception in that. 
+Some people also work remotely.
+I really enjoy to work in that buzzing crazy creative atmosphere of startups.
+Stockholm has one of the most active startup communities in europe.
 There are a lot of networking events and conferences (and afterwork-partys).
 Probably this super-fast-paced hipster startup world with it's almost religious believe in technology makes a way bigger cultural difference than just sweden vs germany.
 
