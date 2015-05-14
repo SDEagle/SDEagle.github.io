@@ -5,7 +5,7 @@ category: stockholm
 ---
 
 My calendar tells me that it's been one month already since I arrived in Stockholm. 
-Actually I don't feel like believing that, though usually the calendar is right with such claims.
+Actually I don't feel like believing that, though usually my calendar is right with such claims.
 Fast passing time might be an indicator that I've settled in quite well.
 
 So how is it here?
