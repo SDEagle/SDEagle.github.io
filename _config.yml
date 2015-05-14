@@ -1,15 +1,58 @@
 # Site settings
-title: Blog
-# email: your-email@domain.com
+title:       Blog
+email:       ''
+author:      John Otander
 description: >
   This is the blog of Tim who was once asked to describe himself in three words. 
   He said: “nerd, musician, christian”. That sums it up pretty much. 
   Currently he is doing a six month internship in Stockholm before finishing his masters degree in 
   computer science at the Karlsruhe Institute for Technology (Germany).
-baseurl: "" # the subpath of your site, e.g. /blog/
-# url: "http://yourdomain.com" # the base hostname & protocol for your site
-# twitter_username: jekyllrb
-# github_username:  jekyll
+baseurl:     ""
+url:         "http://sdeagle.github.io"
+
+# Google analytics
+google_analytics: false
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname:
+
+# Social icons
+show_social_icons: false
+github_username:
+stackoverflow_id:
+twitter_username:
+google_plus_id:
+linkedin_username:
+angellist_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
+
+# Post sharing icons
+show_sharing_icons: false
+share_text: 'Share this post!'
+# Change to 'true' to enable individual icons
+share_facebook: false
+share_twitter: false
+share_googleplus: false
+share_linkedin: false
+share_digg: false
+share_tumblr: false
+share_reddit: false
+share_stumbleupon: false
+share_hackernews: false
 
 # Build settings
-markdown: kramdown
+markdown:     redcarpet
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     10
+sass:
+  compressed: true
