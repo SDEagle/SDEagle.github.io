@@ -16,9 +16,12 @@ layout: default
             {{ post.excerpt }}
           {% endif %}
         </p>
+        <p><a href="{{ post.url | prepend: site.baseurl }}" class="continue-link">Continue reading...</a></p>
       </div>
     {% endfor %}
   </div>
 
-  {% include pagination.html %}
+  <!-- {% include pagination.html %} -->
+
+  <p><a href="feed.xml">RSS Feed</a></p>
 </div>
