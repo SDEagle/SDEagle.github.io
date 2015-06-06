@@ -1,0 +1,66 @@
+---
+layout: post
+title:  "Sunlight"
+category: stockholm
+---
+
+Last week my Stockholm life got significantly better - two times!
+One thing: I got a bike. Wuiii! Freedom!
+According the Google Maps the way to work takes me about 50 minutes but the first tryout took me acutally quite a bit longer, though that might have been due to some stops to consult my phone to not get lost.
+The area has a lot of hills, so it's quite some up and down but since my workdays basically consist of sitting around (on the phiscal side) thats most likely actually a good thing.
+Also, the route is absolutely beautiful.
+
+The other great improvement was that last sunday I moved to another room (inside the house where I live - fastest move ever).
+The new room has a window. And it's approximately six times the size of the old room's window.
+Also the window is suddenly not anymore located beneath the ground but a couple of meters over it.
+Result: light! Lots of it. Endorphines going nuts.
+On top of that, the window goes to the east. Which means: if I wake up at night at ... say 4am (god prevent), theres actually sun shining into my room.
+4am? Really?
+The whole sun thing here seemed rather crazy to me and I wanted to know how big the suntime difference to home* actually was so I decided to dig a little into sunrise/sunset data.
+Google Maps tells us that the distance between Karlsruhe and Stockholm is about 1300km (funny side discovery - the distance measuring tool actually starts to bend for such distances - awesome).
+Thats actually less than I expected but fine, still some distance.
+Now for the sun.
+
+I found a [website](http://www.timeanddate.com/sun/sweden/stockholm) which offered sunrise and sunset times in a nice way.
+You can search for a city and get a list of sunrise and sunset times for any entire month you choose.
+They even have an API, but you have to pay to access that.
+Luckyly HTML is not exactly machine-unreadable, so some evening I invested half and hour to write a tiny script to grab the all data I needed.
+Firering it up and retrieving the data for 2015, throwing some [plotter](http://www.chartjs.org/) on it and here we are (Stockholm blue, Karlsruhe red):
+
+<canvas id="rise-set-times" style="width: 100%"></canvas>
+
+Hm, not that spectacular.
+Peaks where expected.
+We see the winter-/summertime change - the jumps in March and October.
+Differences are smaller than expected and a lot smaller than it feels right now (it feels LIIIIIIGHT right now).
+One interesting thing are the intersections.
+Sunrise times are equal in the beginning of February and the beginning of November.
+But sunset times cross at the start of May and in August.
+Accordingly the difference in sunrise times are right now a lot bigger (almost 2 hours) than the sunset times (probably half an hour).
+The reason for that of course is that both cities are in the same timezone despite their east west distance of about 10 degrees of longitude.
+If we wan't to ignore that distance we can take a look at the total time between sunrise and sunset:
+
+<canvas id="sun-times" style="width: 100%"></canvas>
+
+Now thats more what I expected.
+Intersections at equinox and a maximum difference of about 2 and a half hour.
+Still not much, but of course this data does not take into account that "after sunset" is not equal to "all light gone".
+Acutally right now the nights here don't get completely dark anymore.
+What's also a little weird is that if I sum up the hours of light over the total year I get a difference of about 42 and half an hour
+([almost](http://en.wikipedia.org/wiki/42_%28number%29#The_Hitchhiker.27s_Guide_to_the_Galaxy)) with more light for Stockholm.
+No idea were that difference comes from.
+But since I have better things to do than becoming an hobby astronomer I'm probably stuck with this mystery. Never mind.
+So off I go actually enjoying that beautiful sun and discovering Sweden.
+Until next time.
+
+<sub>
+  *My friends from Greifswald may excuse me taking Karlsruhe for "home" but it was a little bit better in terms of data. Greifswald is really just halfway between Karlsruhe and Stockholm and so it is in the data. Always just in the middle.
+</sub>
+
+<script src="/js/Chart.min.js"></script>
+<script src="/js/chart_monkey_patch.js"></script>
+<script src="/js/light_stats.js"></script>
+<script type="text/javascript">
+new Chart(document.getElementById("rise-set-times").getContext("2d")).Line(riseSetData, options);
+new Chart(document.getElementById("sun-times").getContext("2d")).Line(sunTimeData, options);
+</script>
